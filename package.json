@@ -1,0 +1,15 @@
+{
+  "name": "iot-text",
+  "version": "1.0.0",
+  "description": "Send Twilio text message from AWS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Agrim Asthana <dev@agrimasthana.com>",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "moment-timezone": "^0.5.11",
+    "twilio": "^2.11.1"
+  }
+}
