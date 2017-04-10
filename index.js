@@ -18,9 +18,6 @@ exports.handler = function(event, context){
       text = 'Dinner';
   }
 var recp = subs[text];
-console.log(text);
-console.log(hour);
-console.log(recp);
 text = text + " is served, Feel free to join us. (Do Not Reply)";
 for ( i = 0; i < recp.length ; i++){
   sendText(recp[i]);
